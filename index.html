@@ -1,0 +1,57 @@
+<!--
+/*=================================================================*\
+/* Loading Screen — converti pour Garry's Mod (GMod)                */
+/* Base originale : Nevera Development (loading screen FiveM)      */
+/* Toute la config se trouve dans config.js                        */
+/*=================================================================*/
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+	<title>Loading Screen</title>
+	<script src="config.js"></script>
+
+</head>
+<body>
+	<div id="particles-js"></div>
+	<div class="winter"></div>
+
+	<iframe allow="autoplay; encrypted-media" id="youtube-video"></iframe>
+
+	<div class="panel left staffteam" style="display:none;">
+		<h3>Staff Team</h3>
+		<div class="list staff_team"></div>
+	</div>
+
+	<div class="panel right panelInfo" style="display:none;">
+	    <div class="dots" id="dotsContainer"></div>
+	    <div class="list panelInfo" id="tipsContainer"></div>
+	    <div class="progress-box">
+	    	<div class="progress-bar" id="progressBar"></div>
+	    </div>
+	</div>
+
+	<div class="center">
+		<h1><strong>ZUR</strong>G</h1>
+		<p>Dark<b>RP</b></p>
+		<span>Serveur Garry's Mod DarkRP sur le thème des Backrooms : factions, survie, entités et exploration.</span>
+	</div>
+	<div class="loading-bar">
+		<p>0%</p>
+		<div class="bar">
+			<div class="line"></div>
+		</div>
+	</div>
+	<div class="loading"></div>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
