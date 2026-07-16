@@ -227,6 +227,8 @@ function onPlayerReady() {
 	if (localAudio) { yt.mute(); }
 }
 
+audioEl.volume = (typeof audioVolume !== "undefined") ? audioVolume : 1;
+
 let currentTipIndex = 0;
 let progressStartTime = 0;
 let progressTimeout;
