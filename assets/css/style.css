@@ -319,6 +319,13 @@ video {
   width: 100vw;
   height: 100vh;
   z-index: -1;
+  background: transparent;
+}
+
+/* L'iframe YouTube reste cachée tant qu'aucune vidéo n'est chargée :
+   un iframe vide s'affiche en blanc par défaut et masquerait le fond. */
+iframe#youtube-video {
+  display: none;
 }
 
 #particles-js {
