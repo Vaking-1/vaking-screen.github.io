@@ -199,6 +199,7 @@ if (localAudio) {
 	a = $('#audioPlayer');
 
 	const audioEl = a[0];
+	audioEl.volume = (typeof audioVolume !== "undefined") ? audioVolume : 1;
 	audioEl.play().catch(() => {
 		console.warn("[LoadingScreen] Lecture audio bloquée par le navigateur (autoplay).");
 	});
@@ -226,8 +227,6 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady() {
 	if (localAudio) { yt.mute(); }
 }
-
-audioEl.volume = (typeof audioVolume !== "undefined") ? audioVolume : 1;
 
 let currentTipIndex = 0;
 let progressStartTime = 0;
