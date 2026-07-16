@@ -9,8 +9,8 @@
    1) TEXTE PRINCIPAL (centre de l'écran)
 --------------------------------------------------------------- */
 const name     = "<strong>Reborn</strong> Project"
-const underName = "SCP <b>Foundation</b>"
-const desc     = "Serveur Garry's Mod SCP-RP : incarnez un membre de la Fondation, un Groupe d'Intérêt ou un objet anomal, et survivez au sein du site."
+const underName = "SCP <b>RolePlay</b>"
+const desc     = "Bienvenue sur Reborn Project : SCP-RP ! Incarnez un agent de la sécurité, un scientifique, un classe-d et bien plus encore dans la Zone-Samekh !"
 
 
 /* ---------------------------------------------------------------
@@ -56,14 +56,14 @@ const showStaffTeam = true
 
 var staff_team = [
 	{
-		"name":  "Vsk1",
-		"image": "https://placehold.co/100x100/222/EEE?text=Staff",
-		"rank":  "Owner"
+		"name":  "FROST",
+		"image": "https://avatars.fastly.steamstatic.com/6c29e19cd97171f550ffc70624bea6996d05e0de_full.jpg",
+		"rank":  "Directeur Général de Reborn Project"
 	},
 	{
-		"name":  "Admin",
-		"image": "https://placehold.co/100x100/222/EEE?text=Staff",
-		"rank":  "Admin"
+		"name":  "VAKING",
+		"image": "https://avatars.fastly.steamstatic.com/9f5eba32714b69ab2361269bccb76c87a90c5f38_full.jpg",
+		"rank":  "Directeur Adjoint Général de Reborn Project"
 	}
 ]
 
