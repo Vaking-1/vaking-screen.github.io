@@ -115,7 +115,7 @@ var   videoOpacity      = 0.3
 const localAudio    = true
 const audioFileM4A  = "audio.m4a"
 const audioFileMP3  = "audio.mp3"
-
+const audioVolume = 0.4
 
 /* ---------------------------------------------------------------
    8) PROGRESSION DE CHARGEMENT
