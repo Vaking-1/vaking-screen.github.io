@@ -58,12 +58,12 @@ var staff_team = [
 	{
 		"name":  "FROST",
 		"image": "https://avatars.fastly.steamstatic.com/6c29e19cd97171f550ffc70624bea6996d05e0de_full.jpg",
-		"rank":  "Directeur Général de Reborn Project"
+		"rank":  "Directeur de Reborn Project"
 	},
 	{
 		"name":  "VAKING",
 		"image": "https://avatars.fastly.steamstatic.com/9f5eba32714b69ab2361269bccb76c87a90c5f38_full.jpg",
-		"rank":  "Directeur Adjoint Général de Reborn Project"
+		"rank":  "Directeur Adjoint de Reborn Project"
 	}
 ]
 
