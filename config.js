@@ -8,9 +8,9 @@
 /* ---------------------------------------------------------------
    1) TEXTE PRINCIPAL (centre de l'écran)
 --------------------------------------------------------------- */
-const name     = "<strong>ZUR</strong>G"          // nom du serveur (HTML autorisé)
-const underName = "Dark<b>RP</b>"                  // sous-titre (HTML autorisé)
-const desc     = "Serveur Garry's Mod DarkRP sur le thème des Backrooms : factions, survie, entités et exploration."
+const name     = "<strong>Reborn</strong> Project"
+const underName = "SCP <b>Foundation</b>"
+const desc     = "Serveur Garry's Mod SCP-RP : incarnez un membre de la Fondation, un Groupe d'Intérêt ou un objet anomal, et survivez au sein du site."
 
 
 /* ---------------------------------------------------------------
@@ -18,7 +18,7 @@ const desc     = "Serveur Garry's Mod DarkRP sur le thème des Backrooms : facti
    Valeurs possibles : "orange", "red", "blue", "green", "pink", "purple"
    Change aussi l'image de fond assets/img/<theme>.jpg
 --------------------------------------------------------------- */
-const theme = "orange"
+const theme = "blue"
 
 
 /* ---------------------------------------------------------------
