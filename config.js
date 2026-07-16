@@ -22,6 +22,32 @@ const theme = "orange"
 
 
 /* ---------------------------------------------------------------
+   2 bis) IMAGES DE FOND PERSONNALISÉES
+   Si tu remplis IMAGES ci-dessous, elles remplacent l'image du
+   thème choisi juste au-dessus (le thème reste utilisé pour la
+   couleur d'accent --main). Laisse le tableau vide pour ne garder
+   que l'image du thème.
+
+   - IMAGES : chemins (assets/img/xxx.jpg) ou URLs, autant que tu
+     veux. Une seule image = fond fixe. Plusieurs = diaporama qui
+     défile automatiquement en fondu.
+   - INTERVAL_MS : temps d'affichage de chaque image (en ms) avant
+     de passer à la suivante.
+   - RANDOM_ORDER : true pour un ordre aléatoire, false pour suivre
+     l'ordre du tableau.
+--------------------------------------------------------------- */
+const CONFIG_BACKGROUND = {
+    IMAGES: [
+        // "assets/img/backrooms1.jpg",
+        // "assets/img/backrooms2.jpg",
+        // "assets/img/backrooms3.jpg",
+    ],
+    INTERVAL_MS: 8000,
+    RANDOM_ORDER: false
+}
+
+
+/* ---------------------------------------------------------------
    3) STAFF TEAM (panneau de gauche)
 --------------------------------------------------------------- */
 const showStaffTeam = true
@@ -111,11 +137,15 @@ var   videoOpacity      = 0.3
      navigateur CEF de GMod ne sait pas lire l'AAC. Tu peux laisser
      audioFileMP3 vide si tu n'as qu'un M4A, mais garde un MP3 sous
      le coude si jamais le M4A ne joue pas en jeu.
+   - audioVolume : volume de 0 (muet) à 1 (max). Pas de bouton en jeu
+     pour le régler (fait exprès), donc ajuste la valeur ici et
+     redéploie si besoin.
 --------------------------------------------------------------- */
 const localAudio    = true
+const audioVolume   = 0.4
 const audioFileM4A  = "audio.m4a"
 const audioFileMP3  = "audio.mp3"
-const audioVolume = 0.4
+
 
 /* ---------------------------------------------------------------
    8) PROGRESSION DE CHARGEMENT
