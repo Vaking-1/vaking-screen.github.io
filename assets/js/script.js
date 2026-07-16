@@ -219,10 +219,10 @@ if (youtubeVideo.startsWith("https://www.youtube.com")) {
 			videoOpacity = 0
 		}
 		$("iframe").attr("src", `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=0&enablejsapi=1&disablekb=1`)
-				   .css({ filter: `blur(${videoBlur}px)`, opacity: videoOpacity });
+				   .css({ filter: `blur(${videoBlur}px)`, opacity: videoOpacity, display: "block" });
 		if (showYoutubeVideo) $("body").css("background", "#000");
 		if (enableLocalVideo){
-			$("iframe").attr("src","")
+			$("iframe").attr("src","").css("display","none")
 		}
 	}
 }
