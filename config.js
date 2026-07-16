@@ -38,9 +38,11 @@ const theme = "orange"
 --------------------------------------------------------------- */
 const CONFIG_BACKGROUND = {
     IMAGES: [
-        // "assets/img/backrooms1.jpg",
-        // "assets/img/backrooms2.jpg",
-        // "assets/img/backrooms3.jpg",
+        "assets/img/1.png",
+        "assets/img/2.png",
+        "assets/img/3.png",
+		"assets/img/4.png",
+		"assets/img/5.png",
     ],
     INTERVAL_MS: 8000,
     RANDOM_ORDER: false
