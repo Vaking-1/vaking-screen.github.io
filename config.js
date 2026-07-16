@@ -42,7 +42,6 @@ const CONFIG_BACKGROUND = {
         "assets/img/2.png",
         "assets/img/3.png",
 		"assets/img/4.png",
-		"assets/img/5.png",
     ],
     INTERVAL_MS: 8000,
     RANDOM_ORDER: false
