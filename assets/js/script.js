@@ -166,6 +166,42 @@ if (theme == "purple"){
 	$(".winter").css("background","linear-gradient(0deg, rgb(193 67 255 / 10%) 0%, rgba(193, 67, 255, 0.0) 100%)")
 }
 
+/* =================================================================
+   IMAGES DE FOND PERSONNALISÉES (diaporama)
+   -----------------------------------------------------------------
+   Si CONFIG_BACKGROUND.IMAGES contient au moins une image, elle(s)
+   remplace(nt) l'image de fond du thème choisi ci-dessus. Avec
+   plusieurs images, ça défile automatiquement en fondu.
+================================================================= */
+if (typeof CONFIG_BACKGROUND !== "undefined" && CONFIG_BACKGROUND.IMAGES && CONFIG_BACKGROUND.IMAGES.length > 0) {
+	$("body").css("background-image", "none");
+
+	const bgContainer = $('<div class="bg-slideshow"></div>').prependTo('body');
+	const bgSlides = [];
+
+	CONFIG_BACKGROUND.IMAGES.forEach((src, i) => {
+		const slide = $('<div class="bg-slide"></div>').css('background-image', `url('${src}')`);
+		if (i === 0) slide.addClass('active');
+		bgContainer.append(slide);
+		bgSlides.push(slide);
+	});
+
+	if (bgSlides.length > 1) {
+		let bgOrder = bgSlides.map((_, i) => i);
+		if (CONFIG_BACKGROUND.RANDOM_ORDER) {
+			bgOrder = bgOrder.sort(() => Math.random() - 0.5);
+		}
+		let bgIndex = 0;
+		const bgIntervalMs = CONFIG_BACKGROUND.INTERVAL_MS || 8000;
+
+		setInterval(() => {
+			bgSlides[bgOrder[bgIndex]].removeClass('active');
+			bgIndex = (bgIndex + 1) % bgOrder.length;
+			bgSlides[bgOrder[bgIndex]].addClass('active');
+		}, bgIntervalMs);
+	}
+}
+
 // Effet "hiver" (particules qui tombent)
 if (enableWinterUpdate){
 	particlesJS("particles-js", { "particles": { "number": { "value": 160, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": false, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 1.5, "direction": "bottom", "random": true, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": true, "rotateX": 100, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": false, "mode": "repulse" }, "onclick": { "enable": false, "mode": "repulse" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 223.7762237762238, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
