@@ -235,7 +235,24 @@ if (localAudio) {
 	a = $('#audioPlayer');
 
 	const audioEl = a[0];
-	audioEl.volume = (typeof audioVolume !== "undefined") ? audioVolume : 1;
+
+	// Volume borné entre 0 et 1, avec un défaut BAS (0.15) si audioVolume
+	// n'est pas défini dans config.js, pour éviter tout son qui arrive fort.
+	const safeVolume = Math.min(Math.max((typeof audioVolume !== "undefined") ? audioVolume : 0.15, 0), 1);
+
+	function applyVolume() {
+		audioEl.volume = safeVolume;
+		audioEl.muted = false;
+	}
+
+	applyVolume();
+	// GMod (CEF) applique parfois le volume par défaut (1) tant que le média
+	// n'est pas prêt et écrase la valeur qu'on vient de mettre : on la
+	// réapplique donc sur plusieurs événements pour être sûr qu'elle tienne.
+	audioEl.addEventListener('loadedmetadata', applyVolume);
+	audioEl.addEventListener('canplay', applyVolume);
+	audioEl.addEventListener('play', applyVolume);
+
 	audioEl.play().catch(() => {
 		console.warn("[LoadingScreen] Lecture audio bloquée par le navigateur (autoplay).");
 	});
