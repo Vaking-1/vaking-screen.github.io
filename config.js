@@ -163,7 +163,7 @@ var   videoOpacity      = 0.3
      redéploie si besoin.
 --------------------------------------------------------------- */
 const localAudio    = true
-const audioVolume   = 0.4
+const audioVolume   = 0.1
 const audioFileM4A  = "audio.m4a"
 const audioFileMP3  = "audio.mp3"
 
