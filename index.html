@@ -16,7 +16,12 @@
 	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
 	<title>Loading Screen</title>
-	<script src="config.js"></script>
+	<script>
+		// Cache-buster : GMod (CEF) garde souvent config.js en cache et ignore
+		// tes modifications tant que l'URL ne change pas. On force ici un
+		// rechargement à chaque ouverture de l'écran de chargement.
+		document.write('<script src="config.js?v=' + Date.now() + '"><\/script>');
+	</script>
 
 </head>
 <body>
@@ -51,7 +56,9 @@
 	</div>
 	<div class="loading"></div>
 
-<script type="text/javascript" src="assets/js/script.js"></script>
+<script>
+	document.write('<script type="text/javascript" src="assets/js/script.js?v=' + Date.now() + '"><\/script>');
+</script>
 <script src="https://www.youtube.com/iframe_api"></script>
 </body>
 </html>
