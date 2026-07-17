@@ -63,6 +63,26 @@ var staff_team = [
 		"name":  "VAKING",
 		"image": "https://avatars.fastly.steamstatic.com/9f5eba32714b69ab2361269bccb76c87a90c5f38_full.jpg",
 		"rank":  "Directeur Adjoint de Reborn Project"
+	},
+		{
+		"name":  "DITOX",
+		"image": "https://cdn.discordapp.com/avatars/764240102812549121/72bcb8a0882d6acdaf242de90537ac5b.png?size=128",
+		"rank":  "Responsable Technique de Reborn Project"
+	},
+		{
+		"name":  "ALETRUX",
+		"image": "https://cdn.discordapp.com/avatars/994339043087224893/b62c5778e6d8875370e885ecd7fbc291.png?size=128",
+		"rank":  "Responsable de Reborn SCP-RP"
+	},
+			{
+		"name":  "KYLAN",
+		"image": "https://cdn.discordapp.com/avatars/725734360736596050/f0eca4097675046c52adcbbb55341c7c.png?size=128",
+		"rank":  "Responsable Adjoint de Reborn SCP-RP"
+	},
+			{
+		"name":  "EYOKA",
+		"image": "https://cdn.discordapp.com/avatars/593349256748859402/2e67abf5d2de48e8486c9583497b3b1d.png?size=128",
+		"rank":  "Responsable Adjoint de Reborn SCP-RP"
 	}
 ]
 
