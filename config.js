@@ -98,29 +98,71 @@ const showTipList = true
 
 const tipsConfig = [
     {
-        title: "Reste groupé en changeant de niveau",
-        text: "Un niveau vide n'est jamais vraiment vide. Mieux vaut y entrer à plusieurs que seul.",
+        title: "Une porte fermée est une porte heureuse",
+        text: "Une porte laissée ouverte peut compromettre le confinement, la sécurité du personnel et l'intégrité de la Zone. Pensez toujours à la refermer derrière vous !",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "Les alarmes ne sont jamais décoratives",
+        text: "Chaque alarme a une raison d'être. Réagissez rapidement, suivez les procédures et restez attentif aux consignes diffusées.",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "Le silence radio peut sauver des vies",
+        text: "Évitez les communications inutiles. Gardez les fréquences libres afin que les informations essentielles puissent être transmises sans délai !",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "Sécuriser. Contenir. Protéger.",
+        text: "Ces trois principes sont au cœur de chaque mission. Vos actions doivent toujours contribuer à préserver le confinement et la sécurité de la Fondation.",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "Respectez les protocoles",
+        text: "Les procédures de la Fondation sont le fruit de nombreuses expériences. Les suivre réduit les risques pour vous et vos collègues !",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "Respectez votre hiérarchie",
+        text: "La chaîne de commandement garantit une réponse rapide et efficace. Les ordres doivent être respectés afin d'assurer le bon fonctionnement des installations.",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "Un rapport clair facilite le travail",
+        text: "Des informations précises et complètes permettent aux équipes d'agir efficacement et d'assurer un meilleur suivi des incidents !",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "Le règlement est votre meilleur équipement",
+        text: "Connaître et appliquer le règlement est aussi important que votre équipement. Il constitue votre première protection face aux anomalies.",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "N'agissez pas dans la précipitation",
+        text: "Prenez le temps d'évaluer la situation avant d'intervenir. Une décision réfléchie vaut mieux qu'une réaction irréfléchie !",
+        img: "",
+        timeout: 10
+    },
+    {
+        title: "Les classes de confinement",
+        text: "La classe d'un SCP reflète la complexité de son confinement. Elle ne représente pas nécessairement son niveau de dangerosité.",
         img: "",
         timeout: 10
     },
     {
         title: "Ignorez le froid, pas le danger",
-        text: "Peu importe votre affectation, gardez votre concentration. Chaque décision peut avoir des conséquences sur la sécurité de la Fondation.",
+        text: "Peu importe la Zone où vous vous trouvez, gardez votre concentration. Chaque décision peut avoir des conséquences sur la sécurité de la Fondation !",
         img: "",
         timeout: 10
-    },
-    {
-        title: "Chaque faction a ses règles",
-        text: "Renseigne-toi avant de foncer : certaines actions comptent comme du RDM selon ta faction.",
-        img: "",
-        timeout: 10
-    },
-    {
-        title: "Les entités ne pardonnent pas",
-        text: "Un bruit derrière un mur, ce n'est probablement pas un joueur.",
-        img: "/tips/tip1.jpg",
-        timeout: 10
-    },
+    }
 ];
 
 
