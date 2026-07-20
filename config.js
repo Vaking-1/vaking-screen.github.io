@@ -106,7 +106,7 @@ const tipsConfig = [
     {
         title: "Les alarmes ne sont jamais décoratives",
         text: "Chaque alarme a une raison d'être. Réagissez rapidement, suivez les procédures et restez attentif aux consignes diffusées.",
-        img: "",
+        img: "assets/img/tips/tips-8.jpg",
         timeout: 10
     },
     {
@@ -142,7 +142,7 @@ const tipsConfig = [
     {
         title: "Le règlement est votre meilleur équipement",
         text: "Connaître et appliquer le règlement est aussi important que votre équipement. Il constitue votre première protection face aux anomalies.",
-        img: "",
+        img: "assets/img/tips/tips-9.jpg",
         timeout: 10
     },
     {
