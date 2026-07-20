@@ -167,6 +167,12 @@ const tipsConfig = [
         text: "Peu importe la Zone où vous vous trouvez, gardez votre concentration. Chaque décision peut avoir des conséquences sur la sécurité de la Fondation !",
         img: "assets/img/tips/tips-3.png",
         timeout: 10
+    },
+    {
+        title: "Notre serveur Discord",
+        text: "N'oubliez pas de rejoindre notre serveur Discord pour vous informer de toutes les nouveautés et discuter avec la communauté !",
+        img: "assets/img/tips/tips-12.jpg",
+        timeout: 10
     }
 ];
 
