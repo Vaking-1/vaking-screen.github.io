@@ -100,19 +100,19 @@ const tipsConfig = [
     {
         title: "Une porte fermée est une porte heureuse",
         text: "Une porte laissée ouverte peut compromettre le confinement, la sécurité du personnel et l'intégrité de la Zone. Pensez toujours à la refermer derrière vous !",
-        img: "",
+        img: "assets/img/tips/tips-4.jpg",
         timeout: 10
     },
     {
         title: "Les alarmes ne sont jamais décoratives",
         text: "Chaque alarme a une raison d'être. Réagissez rapidement, suivez les procédures et restez attentif aux consignes diffusées.",
-        img: "assets/img/tips/tips-4.jpg",
+        img: "",
         timeout: 10
     },
     {
         title: "Le silence radio peut sauver des vies",
         text: "Évitez les communications inutiles. Gardez les fréquences libres afin que les informations essentielles puissent être transmises sans délai !",
-        img: "",
+        img: "assets/img/tips/tips-7.jpg",
         timeout: 10
     },
     {
