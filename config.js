@@ -105,7 +105,7 @@ const tipsConfig = [
     },
     {
         title: "Ignorez le froid, pas le danger",
-        text: "Peu importe la zone où vous vous trouvez, n'oubliez pas de rester concentré. Toute action pourrait mettre en péril la Fondation.",
+        text: "Peu importe votre affectation, gardez votre concentration. Chaque décision peut avoir des conséquences sur la sécurité de la Fondation.",
         img: "",
         timeout: 10
     },
