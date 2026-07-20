@@ -130,13 +130,13 @@ const tipsConfig = [
     {
         title: "Respectez votre hiérarchie",
         text: "La chaîne de commandement garantit une réponse rapide et efficace. Les ordres doivent être respectés afin d'assurer le bon fonctionnement des installations.",
-        img: "",
+        img: "assets/img/tips/tips-10.jpg",
         timeout: 10
     },
     {
         title: "Un rapport clair facilite le travail",
         text: "Des informations précises et complètes permettent aux équipes d'agir efficacement et d'assurer un meilleur suivi des incidents !",
-        img: "",
+        img: "assets/img/tips/tips-11.jpg",
         timeout: 10
     },
     {
