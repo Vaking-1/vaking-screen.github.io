@@ -83,6 +83,11 @@ var staff_team = [
 		"name":  "EYOKA",
 		"image": "https://cdn.discordapp.com/avatars/593349256748859402/2e67abf5d2de48e8486c9583497b3b1d.png?size=128",
 		"rank":  "Responsable Adjoint de Reborn SCP-RP"
+	},
+			{
+		"name":  "VAL",
+		"image": "https://cdn.discordapp.com/avatars/309293083198226452/085c680de3557542a5ab6d30fa560ce8.png?size=128",
+		"rank":  "Administrateur Sénior de Reborn SCP-RP"
 	}
 ]
 
