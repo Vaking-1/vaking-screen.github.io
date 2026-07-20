@@ -148,13 +148,13 @@ const tipsConfig = [
     {
         title: "N'agissez pas dans la précipitation",
         text: "Prenez le temps d'évaluer la situation avant d'intervenir. Une décision réfléchie vaut mieux qu'une réaction irréfléchie !",
-        img: "",
+        img: "assets/img/tips/tips-5.png",
         timeout: 10
     },
     {
         title: "Les classes de confinement",
         text: "La classe d'un SCP reflète la complexité de son confinement. Elle ne représente pas nécessairement son niveau de dangerosité.",
-        img: "",
+        img: "assets/img/tips/tips-6.png",
         timeout: 10
     },
     {
