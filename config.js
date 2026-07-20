@@ -104,8 +104,8 @@ const tipsConfig = [
         timeout: 10
     },
     {
-        title: "L'Almond Water, ça se garde",
-        text: "Ne bois pas tout d'un coup en début de run, tu vas le regretter plus tard.",
+        title: "Ignorez le froid, pas le danger",
+        text: "Peu importe la zone où vous vous trouvez, n'oubliez pas de rester concentré. Toute action pourrait mettre en péril la Fondation.",
         img: "",
         timeout: 10
     },
