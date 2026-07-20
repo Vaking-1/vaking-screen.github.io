@@ -106,7 +106,7 @@ const tipsConfig = [
     {
         title: "Les alarmes ne sont jamais décoratives",
         text: "Chaque alarme a une raison d'être. Réagissez rapidement, suivez les procédures et restez attentif aux consignes diffusées.",
-        img: "",
+        img: "assets/img/tips/tips-4.png",
         timeout: 10
     },
     {
@@ -118,13 +118,13 @@ const tipsConfig = [
     {
         title: "Sécuriser. Contenir. Protéger.",
         text: "Ces trois principes sont au cœur de chaque mission. Vos actions doivent toujours contribuer à préserver le confinement et la sécurité de la Fondation.",
-        img: "",
+        img: "assets/img/tips/tips-1.png",
         timeout: 10
     },
     {
         title: "Respectez les protocoles",
         text: "Les procédures de la Fondation sont le fruit de nombreuses expériences. Les suivre réduit les risques pour vous et vos collègues !",
-        img: "",
+        img: "assets/img/tips/tips-2.png",
         timeout: 10
     },
     {
@@ -160,7 +160,7 @@ const tipsConfig = [
     {
         title: "Ignorez le froid, pas le danger",
         text: "Peu importe la Zone où vous vous trouvez, gardez votre concentration. Chaque décision peut avoir des conséquences sur la sécurité de la Fondation !",
-        img: "",
+        img: "assets/img/tips/tips-3.png",
         timeout: 10
     }
 ];
